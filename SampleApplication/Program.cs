@@ -18,5 +18,13 @@ namespace SampleApplication
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
+        public static void newFunction()
+        {
+            var someText = "SampleApplication";
+            Console.WriteLine(someText);
+        }
     }
+
+   
 }
