@@ -1,0 +1,16 @@
+[Version] 
+Signature="$Chicago$"
+AdvancedINF=2.0 
+[DefaultInstall] 
+CopyFiles=install.files 
+RunPostSetupCommands=RunPostSetupCommandsSection 
+[DestinationDirs] 
+install.files=-1,C:\Users\User\Downloads\PackageAppFolderSample
+[install.files]
+InstallationCommand.inf
+SampleApplication.exe
+SampleApplication.exe.config
+SampleApplication.pdb
+[RunPostSetupCommandsSection]
+[SourceDisksNames] 
+1='default',,1 
